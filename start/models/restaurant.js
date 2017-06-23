@@ -16,4 +16,6 @@ var Restaurant = db.define("restaurant",{
     }
 });
 
+db.sync();
+
 modules.export = Restaurant;

@@ -26,4 +26,8 @@ var Place = db.define("place", {
             }
         }
     }
-})
+});
+
+db.sync();
+
+modules.export = Place;
